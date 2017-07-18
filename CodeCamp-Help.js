@@ -11,8 +11,15 @@ module.exports = {
         // *********************************************************************
         // CODE HERE!
         // *********************************************************************
+var lc = message.toLowerCase();
 
-        Slack.postMessageToChannel(channelName, 'Heard your cry for help.');
+if (lc == "help"){
+ Slack.postMessageToChannel(channelName, 'I can help you with Holdidays, and weather, as well as jokes.');   
+}
+if (lc == "help holidays"){
+Slack.postMessageToChannel(channelName, 'The Holidays are Halloween,');
+}
+        
 
         // *********************************************************************
         // STOP CODING!
