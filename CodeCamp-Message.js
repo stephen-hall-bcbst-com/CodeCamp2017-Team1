@@ -11,8 +11,15 @@ module.exports = {
         // *********************************************************************
         // CODE HERE!
         // *********************************************************************
+var lc = message.toLowerCase();
+var rep = 'Sorry, I did\'t catch that.'
 
-        Slack.postMessageToChannel(channelName, 'Message received.');
+if (lc.includes('how') && lc.includes('are') && lc.includes('you'));{
+    rep = 'I\'m doing as good as expected to be living in a computer' 
+}
+
+
+        Slack.postMessageToChannel(channelName, rep);
 
         // *********************************************************************
         // STOP CODING!
