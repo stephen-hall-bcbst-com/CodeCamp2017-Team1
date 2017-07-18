@@ -10,8 +10,15 @@ module.exports = {
         // *********************************************************************
         // CODE HERE!
         // *********************************************************************
+var lc = question.toLowerCase();
+var rep = '';
 
-        Slack.postMessageToChannel(channelName, "Question received.");
+if (lc.includes('weather')) {
+     rep = 'I don\'t know, sorry I don\'t get out much';
+}
+
+
+        Slack.postMessageToChannel(channelName, rep );
 
         // *********************************************************************
         // STOP CODING!
