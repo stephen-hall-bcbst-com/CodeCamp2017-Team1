@@ -20,7 +20,7 @@ if (lc == ('New Year\'s day')) {
 if (lc == ('Martin Luther King jr\'s birthday')) {
     rep == ('He grew to become a social activist, who believed strongly in equality.');
 }
- 
+
  if (lc == ('National Pie day')) {
      rep == ('A day to cook and bake pies as well as to eat them.');
 }
@@ -36,7 +36,54 @@ if (lc == ('Superbowl Sunday')) {
 if (lc == ('National Freedom day')) {
     rep == ('Celebrates freedom from slavery, as well as America stands for a symbol of freedom.');
 }     
-        
+
+// March Holidays 
+
+if (lc == ('Peach Blossom day')) {
+    rep == ('It is a day to celebrate girls, and women.');
+}  
+
+if (lc == ('Plant a Flower day')) {
+    rep == ('A day to garden and plant a flower.');
+}               
+
+if (lc == ('St. Patricks day')) {
+    rep == ('In honor of Patron Saint of Ireland, who brought Christianity to the Emerald Isles.');
+}
+
+// April Holidays 
+
+if (lc == ('April Fools day')) {
+    rep == ('A day to have fun, and prank your friends and family.');
+}   
+
+if (lc == ('National Peanut Butter and Jelly day')) {
+    rep == ('Many kids and adults love this famous sandwich.');
+}   
+
+if (lc == ('Zoo Lovers day')) {
+    rep == ('A day to visit zoos, and enjoy animals.'); 
+}     
+
+// May Holidays
+
+if (lc == ('May day')) {
+    rep == ('The celebration of spring coming into summer.');
+}
+
+if (lc == ('Star Wars day')) {
+    rep == ('To celebrate the huge science fiction series.'); 
+}
+
+if (lc == ('Cinco De Mayo')) {
+    rep == ('On May 5th, 1862, the Mexican army defeated the French army at the battle of Puebla.');
+}
+
+// June Holidays 
+
+
+
+
         Slack.postMessageToChannel(channelName, rep);
 
         // *********************************************************************
