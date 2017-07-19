@@ -26,7 +26,7 @@ var rep = 'I don\'t know that, sorry';
     } 
         // March response 
         if (lc.includes('holiday') && lc.includes('march')) {
-        rep = 'I see you are interested in march, so here you go, "Peach Blossom Day", "Plant a Flower Day", and "St. Patricks Day." Which one do you want ot know about.'; 
+        rep = 'I see you are interested in march, so here you go, "Peach Blossom Day", "Plant a Flower Day", and "St. Patricks Day." Which one do you want to know about.'; 
     }  
         // April response 
         if (lc.includes('holiday') && lc.includes('april')) {
