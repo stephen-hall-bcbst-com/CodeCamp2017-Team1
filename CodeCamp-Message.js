@@ -26,7 +26,7 @@ if (lc == ('martin luther king jr\'s birthday')) {
 }
  // February Holidays
  if (lc == ('bubble gum day')) {
-     rep = ('Kids bring 50 cents to school, to contribute to a good cause.');
+     rep = ('Kids bring 50 cents to school, to contribute to a good cause allowing them to chew gum for the day.');
 }
 
 if (lc == ('superbowl sunday')) {
