@@ -22,21 +22,28 @@ var rep = 'I don\'t know that, sorry';
     }
         // February response 
         if (lc.includes('holiday') && lc.includes('february')) {
-        rep = 'oh I know about February. It has "Bubble Gum Day", "SuperBowl Sunday", and "National Freedom Day." Whitch one do you want ot know about. ';
+        rep = 'oh I know about February. It has "Bubble Gum Day", "SuperBowl Sunday", and "National Freedom Day." Which one do you want ot know about. ';
     } 
         // March response 
         if (lc.includes('holiday') && lc.includes('march')) {
-        rep = 'I see you are interested in march, so here you go, "Peach Blossom Day", "Plant a Flower Day", and "St. Patricks Day." Whitch one do you want ot know about.'; 
+        rep = 'I see you are interested in march, so here you go, "Peach Blossom Day", "Plant a Flower Day", and "St. Patricks Day." Which one do you want ot know about.'; 
     }  
         // April response 
         if (lc.includes('holiday') && lc.includes('april')) {
-        rep = 'So, you want to know about Apirl. "Apirl Fools Day", "National Peanut Butter and Jelly Day", and "Zoo lovers Day". whitch one do you want to know about.';
+        rep = 'So, you want to know about Apirl. "Apirl Fools Day", "National Peanut Butter and Jelly Day", and "Zoo lovers Day". Which one do you want to know about.';
     }
+        // May response 
         if (lc.includes('holiday') && lc.includes('may')) { 
-            rep = '';
+            rep = 'Hey your into May, there is "May Day", "Star Wars Day", and "Cinco De Mayo." Which one do you want to know about.';
+    }
+        // June response  
+        if (lc.includes('holiday') && lc.includes('june')) {
+            rep = 'You like june me too, there\'s "Best friend\'s Day", "Eat your Vegeatables Day", and "Father\'s Day." Which one do you want to know about.';
+    }
+        // July response 
+        if (lc.includes('holiday') && lc.includes('july')) {
+            rep = 'July is one of my favorite months. there\'s "4th of July", "National Blueberry Day", and "Embrace your Geekness Day". Which one do you want to know about.';
         }
-       
-       
        
        
         Slack.postMessageToChannel(channelName, rep );
