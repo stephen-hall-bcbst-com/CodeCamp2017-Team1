@@ -33,7 +33,7 @@ var rep = 'I don\'t know that, sorry';
         rep = 'So, you want to know about Apirl. "Apirl Fools Day", "National Peanut Butter and Jelly Day", and "Zoo lovers Day". whitch one do you want to know about.';
     }
         if (lc.includes('holiday') && lc.includes('may')) { 
-            rep = 
+            rep = '';
         }
        
        
