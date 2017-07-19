@@ -18,7 +18,7 @@ var lc = message.toLowerCase();
 }
     if (lc.includes("help") && lc.includes("holidays")) {
 Slack.postMessageToChannel(channelName, 
-};
+}
     if (lc== "") { 
 } 
 
