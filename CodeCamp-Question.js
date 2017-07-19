@@ -43,7 +43,7 @@ var rep = 'I don\'t know that, sorry';
         // July response 
         if (lc.includes('holiday') && lc.includes('july')) {
             rep = 'July is one of my favorite months. there\'s "4th of July", "National Blueberry Day", and "Embrace your Geekness Day". Which one do you want to know about.';
-        }
+    }
        
        
         Slack.postMessageToChannel(channelName, rep );
