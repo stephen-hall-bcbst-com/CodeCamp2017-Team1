@@ -14,7 +14,7 @@ module.exports = {
 var lc = message.toLowerCase();
 var rep = 'Sorry, I did\'t catch that.'; 
 // January Holidays 
-if (lc == ('new year\'s day')) {
+if (lc == ('new years day')) {
     rep = ('To relax and have fun, it is also a time of joy.');
 }
 if (lc == ('martin luther king jr\'s birthday')) {
