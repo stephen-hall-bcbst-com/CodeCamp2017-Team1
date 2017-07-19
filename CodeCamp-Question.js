@@ -18,7 +18,7 @@ var rep = 'I don\'t know that, sorry';
     }
         // January response 
         if (lc.includes('holiday') && lc.includes('january')); {
-        rep = 'January has lots of holidays most notably "New Years Day", "Martin Luther King JR\'s birthday", and "National Pie day." Whitch one do you want to know about. '; 
+        rep = 'January has lots of holidays most notably "New Years Day", "Martin Luther King JR\'s birthday", and "National Pie day." Which one do you want to know about. '; 
     }
         // February response 
         if (lc.includes('holiday') && lc.includes('february')) {
@@ -29,7 +29,7 @@ var rep = 'I don\'t know that, sorry';
         rep = 'I see you are interested in march, so here you go, "Peach Blossom Day", "Plant a Flower Day", and "St. Patricks Day." Whitch one do you want ot know about.'; 
     }  
         // April response 
-        if (lc.includes('holiday') && lc.includes('apirl')) {
+        if (lc.includes('holiday') && lc.includes('april')) {
         rep = 'So, you want to know about Apirl. "Apirl Fools Day", "National Peanut Butter and Jelly Day", and "Zoo lovers Day". whitch one do you want to know about.';
     }
         if (lc.includes('holiday') && lc.includes('may')) { 
