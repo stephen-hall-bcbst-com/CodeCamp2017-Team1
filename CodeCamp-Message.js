@@ -81,12 +81,31 @@ if (lc == ('cinco de mayo')) {
 
 // June Holidays 
 
+if (lc == ('best friend\'s day')) {
+    rep = ('To enjoy and appreciate your best friend.');
+}
 
+if (lc == ('eat your vegetables day')) {
+    rep = ('It was created to promote a healthier diet.');
+} 
 
+if (lc == ('father\'s day')) {
+    rep = ('Appreciate all the dad\'s');
+}
 
-        
-        
-        
+// July Holidays 
+
+if (lc == ('4th of july')) {
+    rep = ('It is the birthday of our nation, we celebrate this because of the freedom that we gained.');
+} 
+
+if (lc == ('national blueberry day')) {
+    rep = ('Blueberries are one of the most healthiest fruits you can eat. Join the celebration by eating some blueberries.');
+}     
+
+if (lc == ('embrace your geekness day')) {
+    rep == ('Embrace your inner geek by hopping on your computer.');
+}     
         
         Slack.postMessageToChannel(channelName, rep);
 
