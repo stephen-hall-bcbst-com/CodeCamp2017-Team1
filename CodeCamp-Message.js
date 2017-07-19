@@ -11,8 +11,12 @@ module.exports = {
         // *********************************************************************
         // CODE HERE!
         // *********************************************************************
+var lc = message.toLowerCase();
+var rep = 'Sorry, I did\'t catch that.'
 
-        Slack.postMessageToChannel(channelName, 'Message received.');
+
+
+        Slack.postMessageToChannel(channelName, rep);
 
         // *********************************************************************
         // STOP CODING!
