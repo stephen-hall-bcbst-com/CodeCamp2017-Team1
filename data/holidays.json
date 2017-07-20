@@ -2,196 +2,187 @@
     "holidays": [
         {
                  
-            // January Holidays 
     
             "month": "january",
-            "name": "New Year's Day", 
+            "name": "*New Year's Day*", 
             "description": "A day to relax and enjoy the new year, it's also a time of joy"
         },
        
         {
             "month": "january",
-            "name": "Martin Luther King JR's Birthday",
+            "name": "*Martin Luther King JR's Birthday*",
             "description": "He grew to become a social activist, who believed strongly in equality."
         },
 
         {
             "month": "january",
-            "name": "National Pie Day",
+            "name": "*National Pie Day*",
             "description": "A day to cook and bake pies as well as to eat them."
         },
 
-            // February Holidays 
 
         {
             "month": "february",
-            "name": "Bubble Gum Day",
+            "name": "*Bubble Gum Day*",
             "description": "Kids bring 50 cents to school, to contribute to a good cause allowing them to chew gum for the day." 
         },
         
         {
             "month": "february",
-            "name": "Superbowl Sunday",
+            "name": "*Superbowl Sunday*",
             "description": "People throw parties as well as watch the game."
         },
         
         {   
             "month": "february",
-            "name": "National Freedom day",
+            "name": "*National Freedom day*",
             "description": "Celebrates freedom from slavery, as well as America stands for a symbol of freedom."
         },
 
-             // March Holidays 
+              
 
         {
             "month": "march",
-            "name": "Peach Blossom day",
+            "name": "*Peach Blossom day*",
             "description": "It is a day to celebrate girls, and women."
         },
 
         {
             "month":"march",
-            "name": "Plant a Flower day",
+            "name": "*Plant a Flower day*",
             "description": "A day to garden and plant a flower."
         },
 
         {
             "month":"march",
-            "name": "St. Patricks day",
+            "name": "*St. Patricks day*",
             "description": "In honor of Patron Saint of Ireland, who brought Christianity to the Emerald Isles."
         },
         
-            // April Holidays 
 
         {
             "month": "April",
-            "name": "April Fools day",
+            "name": "*April Fools day*",
             "description": "A day to have fun, and prank your friends and family."
         },
         
         {
             "month":"April",
-            "name": "National Peanut Butter and Jelly day",
+            "name": "*National Peanut Butter and Jelly day*",
             "description": "Many kids and adults love this famous sandwich."
         },
         
         {
             "month":"April",
-            "name": "Zoo Lovers day",
+            "name": "*Zoo Lovers day*",
             "description": "A day to visit zoos, and enjoy animals."
         },
         
-            // May Holidays 
 
         {
             "month": "may",
-            "name": "May day",
+            "name": "*May day*",
             "description":"The celebration of spring coming into summer."
         },
         
         {
             "month":"may",
-            "name": "Star Wars day",
+            "name": "*Star Wars day*",
             "description": "A day to celebrate the huge science fiction series."
         },
         
         {
             "month": "may",
-            "name": "Cinco De Mayo",
+            "name": "*Cinco De Mayo*",
             "description": "On May 5th, 1862, the Mexican army defeated the French army at the battle of Puebla."
         },
         
-            // June Holidays 
 
         {
             "month":"june",
-            "name": "Best Friend's day",
+            "name": "*Best Friend's day*",
             "description": "A day to enjoy and appreciate your best friend."
         },
         
         {
             "month": "june",
-            "name": "Eat Your Vegetables day",
+            "name": "*Eat Your Vegetables day*",
             "description": "It was created to promote a healthier diet."  
         },
         
         {
             "month":"june",
-            "name": "Father's day",
+            "name": "*Father's day*",
             "description": "Appreciate all the dad's"
         },
        
-            // July Holidays 
 
         {
             "month": "july",
-            "name": "4th of July",
+            "name": "*4th of July*",
             "description": "It is the birthday of our nation, we celebrate this because of the freedom that we gained."
         },
         
         {
         
             "month":"july",
-            "name": "National Blueberry day",
+            "name": "*National Blueberry day*",
             "description": "Blueberries are one of the most healthiest fruits you can eat. Join the celebration by eating some blueberries" 
         },
         
         {
             "month": "july",
-            "name": "Embrace your Geekness day",
+            "name": "*Embrace your Geekness day*",
             "description": "Embrace your inner geek by hopping on your computer."
         },
         
-            // August Holidays 
 
         {
             "month": "august",
-            "name": "National S'mores day",
+            "name": "*National S'mores day*",
             "description": "Relax by the campfire, and eat a s'more to join the fun."
         },
         
         {
             "month": "august",
-            "name": "VJ day",
+            "name": "*VJ day*",
             "description": "The celebration of the end of World War Two."
         },
         
         {
             "month": "august",
-            "name": "Women's Equality day",
+            "name": "*Women's Equality day*",
             "description": "On this day women had the right."
         },
         
-            // September Holidays 
         {
             "month": "september",
-            "name": "National Grandparents day",
+            "name": "*National Grandparents day*",
             "description": "This day is to honor and remember the fun times you had with your grandparents."
         },
         
         {
             "month": "september",
-            "name": "Read a Book day",
+            "name": "*Read a Book day*",
             "description": "Relax with a good book, and enjoy reading for a while."
         },
         
         {
             "month":"september",
-            "name": "9/11 Remembrance day",
+            "name": "*9/11 Remembrance day*",
             "description": "Remember those who passed away as well as those who lost a loved one."
         },
         
-           // October Holidays 
 
         {
             "month":"october",
-            "name": "National Pasta day",
+            "name": "*National Pasta day*",
             "description": "Celebrate by eating some pasta"
         },
         
         {
             "month": "october",
-            "name": "United Nations day",
+            "name": "*United Nations day*",
             "description": "To recognize, people who serve and help the enviroment" 
         },
         
@@ -201,25 +192,23 @@
             "description": "To dress up as anything you want, also get candy" 
         },
         
-            // November Holidays 
 
         {
             "month": "november",
-            "name": "Thanksgiving",
+            "name": "*Thanksgiving*",
             "description": "A day to spend time with family, and be thankful."
         },
         {
             "month": "november",
-            "name": "America Recycles day",
+            "name": "*America Recycles day*",
             "description": "To join the fun, start recycling to help the environment."
         },
         {
             "month": "november",
-            "name": "French Toast day",
+            "name": "*French Toast day*",
             "description": "Make some french toast."
         },
         {
-            // December Holidays 
 
             "month": "december",
              "name": "Roast Chestnuts day",
@@ -227,12 +216,12 @@
         },
         {
             "month": "december",
-            "name": "Christmas",
+            "name": "*Christmas*",
             "description": "Spend time with family and friends, and give to people in need."
         },
         {
             "month": "december",
-            "name": "Winter Solstice",
+            "name": "*Winter Solstice*",
             "description": "Marks the beginning of winter."
         }
 
