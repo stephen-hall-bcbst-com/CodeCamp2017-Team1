@@ -137,6 +137,18 @@ if (lc == ('911 remembrance day')) {
 
 // October Holidays 
 
+if (lc == ('national pasta day')) {
+    rep = ('Celebrate by eating some pasta.');
+}
+
+if (lc == ('united nations day')) {
+    rep = ('To recognize, the people who serve and help the environment.');
+}
+
+if (lc == ('halloween')) {
+    rep = ('To dress up as anything you want, you also eat candy.');
+}
+
 
 
        Slack.postMessageToChannel(channelName, rep);
