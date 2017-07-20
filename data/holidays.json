@@ -226,33 +226,39 @@
         {
             "month": "november",
             "name": "*Thanksgiving*",
-            "description": "A day to spend time with family, and be thankful."
+            "description": "A day to spend time with family, and be thankful.",
+            "date": "November 23rd"
         },
         {
             "month": "november",
             "name": "*America Recycles day*",
-            "description": "To join the fun, start recycling to help the environment."
+            "description": "To join the fun, start recycling to help the environment.",
+            "date": "November 15th"
         },
         {
             "month": "november",
             "name": "*French Toast day*",
-            "description": "Make some french toast."
+            "description": "Make some french toast.",
+            "date": "November 28th"
         },
         {
 
             "month": "december",
              "name": "Roast Chestnuts day",
-             "description": "Roast chestnuts to have them as a snack."
+             "description": "Roast chestnuts to have them as a snack.",
+             "date": "December 14th"
         },
         {
             "month": "december",
             "name": "*Christmas*",
-            "description": "Spend time with family and friends, and give to people in need."
+            "description": "Spend time with family and friends, and give to people in need.",
+            "date": "December 25th"
         },
         {
             "month": "december",
             "name": "*Winter Solstice*",
-            "description": "Marks the beginning of winter."
+            "description": "Marks the beginning of winter.",
+            "date": "December 21st"
         }
 
 
