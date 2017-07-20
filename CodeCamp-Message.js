@@ -149,8 +149,34 @@ if (lc == ('halloween')) {
     rep = ('To dress up as anything you want, you also eat candy. Date: October 31st');
 }
 
+// November Holidays 
 
+if (lc == ('Thanksgiving')) {
+    rep = ('A day to spend time with family, and be thankful. Date: November 23rd');
+}
 
+if (lc == ('America Recycles day')) {
+    rep = ('To join the fun, start recycling to help the environment. Date: November 15th');
+}
+
+if (lc == ('French Toast day')) {
+    rep = ('Make some french toast. Date: November 28th');
+}       
+
+// December Holidays 
+
+if (lc ==('Roast Chestnuts day')) {
+    rep = ('Roast chestnuts to have them as a snack. Date: December 14th');
+}       
+       
+if (lc == ('Christmas')) {
+    rep = ('Spend time with family and friends, and give to people in need. Date: Decemeber 25th');
+}       
+
+if ( lc == ('Winter Solstice')) {
+    rep = ('Marks the beginning of winter. Date: December 21st');
+}      
+       
        Slack.postMessageToChannel(channelName, rep);
 
         // *********************************************************************
