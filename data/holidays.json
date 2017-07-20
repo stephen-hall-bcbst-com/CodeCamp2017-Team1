@@ -126,6 +126,71 @@
             "name": "embrace your geekness day",
             "description": "Embrace your inner geek by hopping on your computer."
         },
+        
+        {
+            "month": "august",
+            "name": "national s'mores day",
+            "description": "Relax by the campfire, and eat a s'more to join the fun."
+        },
+        
+        {
+            "month": "august",
+            "name": "vj day",
+            "description": "The celebration of the end of World War Two."
+        },
+        
+        {
+            "month": "august",
+            "name": "women's equality day",
+            "description": "On this day women had the right."
+        },
+        
+        {
+            "month": "september",
+            "name": "national grandparents day",
+            "description": "This day is to honor and remember the fun times you had with your grandparents."
+        },
+        
+        {
+            "month": "september",
+            "name": "read a book day",
+            "description": "Relax with a good book, and enjoy reading for a while."
+        },
+        
+        {
+            "month":"september",
+            "name": "9/11 remembrance day",
+            "description": "Remember those who passed away as well as those who lost a loved one."
+        },
+        
+        {
+            "month":"october",
+            "name": "national pasta day",
+            "description": "Celebrate by eating some pasta"
+        },
+        
+        {
+            "month": "october",
+            "name": "united nations day",
+            "description": "To recognize, people who serve and help the enviroment" 
+        },
+        
+        {
+            "month": "october",
+            "name": "*Halloween* :jack_o_lantern:",
+            "description": "To dress up as anything you want, also get candy" 
+        },
+        
+        {
+            "month": "november",
+            "name": "Thanksgivings",
+            "description":""
+        },
+        {
+            "month": "november",
+            "name": ""
+        }
+
 
     ], 
 
