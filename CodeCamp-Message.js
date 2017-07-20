@@ -12,7 +12,7 @@ module.exports = {
         // CODE HERE!
         // *********************************************************************
 var lc = message.toLowerCase();
-var rep = 'Sorry, I did\'t catch that.'; 
+var rep = 'Sorry, I did\'t catch that. Try asking for help.'; 
 // January Holidays 
 if (lc == ('new years day')) {
     rep = ('A day to relax and have fun, it is also a time of joy.');
