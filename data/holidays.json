@@ -183,12 +183,33 @@
         
         {
             "month": "november",
-            "name": "Thanksgivings",
-            "description":""
+            "name": "Thanksgiving",
+            "description": "A day to spend time with family, and be thankful."
         },
         {
             "month": "november",
-            "name": ""
+            "name": "America Recycles day",
+            "description": "To join the fun, start recycling to help the environment."
+        },
+        {
+            "month": "november",
+            "name": "French Toast day",
+            "description": "Make some french toast."
+        },
+        {
+            "month": "december",
+             "name": "Roast Chestnuts day",
+             "description": "Roast chestnuts to have them as a snack."
+        },
+        {
+            "month": "december",
+            "name": "Christmas",
+            "description": "Spend time with family and friends, and give to people in need."
+        },
+        {
+            "month": "december",
+            "name": "Winter Solstice",
+            "description": "Marks the beginning of winter."
         }
 
 
