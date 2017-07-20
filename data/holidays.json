@@ -1,0 +1,36 @@
+{ 
+    "holidays": [
+        {
+            "month": "july",
+            "name": "New Year's Day", 
+            "description": "New Year's day is the first day of the "
+        },
+       
+        {
+            "month": "july",
+            "name": "Christmas Day",
+            "description": "Christmas is the day....",
+            "best-hat": "Santa Hat"
+        },
+
+        {
+            "month": "july",
+            "name": "Fourth of July",
+            "description": "This is fireworks day...."
+        }
+    ], 
+
+    "months": [
+        "january",
+        "february", 
+        "april",
+        "may",
+        "june",
+        "july", 
+        "august",
+        "september",
+        "october",
+        "november",
+        "december"
+    ]
+}
