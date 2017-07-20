@@ -104,9 +104,25 @@ if (lc == ('national blueberry day')) {
 }     
 
 if (lc == ('embrace your geekness day')) {
-    rep == ('Embrace your inner geek by hopping on your computer.');
+    rep = ('Embrace your inner geek by hopping on your computer.');
 }     
-        
+
+// August Holidays
+
+if (lc == ('national s\'mores day')) {
+    rep = ('Relax by the campfire, and eat a s\'more to join the fun.');
+}
+
+if (lc == ('vj day')) {
+        rep = ('The celebration of the end of World War Two.');
+}
+
+if (lc == ('women\'s equality day)) {
+    rep = ('On this day women had the right.');
+}
+
+
+
         Slack.postMessageToChannel(channelName, rep);
 
         // *********************************************************************
