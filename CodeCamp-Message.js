@@ -110,43 +110,43 @@ if (lc == ('embrace your geekness day')) {
 // August Holidays
 
 if (lc == ('national s\'mores day')) {
-    rep = ('Relax by the campfire, and eat a s\'more to join the fun.');
+    rep = ('Relax by the campfire, and eat a s\'more to join the fun. Date: August 10th');
 }
 
 if (lc == ('vj day')) {
-        rep = ('The celebration of the end of World War Two.');
+        rep = ('The celebration of the end of World War Two. Date: August 14th and 15th');
 }
 
 if (lc == ('women\'s equality day')) {
-    rep = ('On this day women had the right.');
+    rep = ('On this day women had the right. Date: August 26th');
 }
 
 // September Holidays 
 
 if (lc == ('national grandparents day')) {
-    rep = ('This day is to honor and remember the fun times you had with your grandparents.');
+    rep = ('This day is to honor and remember the fun times you had with your grandparents. Date: September 10th');
 }
 
 if (lc == ('read a book day')) {
-    rep = ('Relax with a good book, and enjoy reading for a while.');
+    rep = ('Relax with a good book, and enjoy reading for a while. Date: September 6th');
 }
 
 if (lc == ('911 remembrance day')) {
-    rep = ('Remember those who passed away as well as those who lost a loved one.');
+    rep = ('Remember those who passed away as well as those who lost a loved one. Date: September 11th');
 }
 
 // October Holidays 
 
 if (lc == ('national pasta day')) {
-    rep = ('Celebrate by eating some pasta.');
+    rep = ('Celebrate by eating some pasta. Date: October 17th');
 }
 
 if (lc == ('united nations day')) {
-    rep = ('To recognize, the people who serve and help the environment.');
+    rep = ('To recognize, the people who serve and help the environment. Date: October 24th');
 }
 
 if (lc == ('halloween')) {
-    rep = ('To dress up as anything you want, you also eat candy.');
+    rep = ('To dress up as anything you want, you also eat candy. Date: October 31st');
 }
 
 
