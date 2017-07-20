@@ -171,13 +171,13 @@
         
         {
             "month": "september",
-            "name": "read a book day",
+            "name": "Read a Book day",
             "description": "Relax with a good book, and enjoy reading for a while."
         },
         
         {
             "month":"september",
-            "name": "9/11 remembrance day",
+            "name": "9/11 Remembrance day",
             "description": "Remember those who passed away as well as those who lost a loved one."
         },
         
@@ -185,13 +185,13 @@
 
         {
             "month":"october",
-            "name": "national pasta day",
+            "name": "National Pasta day",
             "description": "Celebrate by eating some pasta"
         },
         
         {
             "month": "october",
-            "name": "united nations day",
+            "name": "United Nations day",
             "description": "To recognize, people who serve and help the enviroment" 
         },
         
