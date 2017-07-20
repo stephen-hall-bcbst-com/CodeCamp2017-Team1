@@ -1,23 +1,132 @@
 { 
     "holidays": [
         {
-            "month": "july",
+            "month": "january",
             "name": "New Year's Day", 
-            "description": "New Year's day is the first day of the "
+            "description": "A day to relax and enjoy the new year, it's also a time of joy"
+        },
+       
+        {
+            "month": "january",
+            "name": "Martin Luther King JR's Birthday",
+            "description": "He grew to become a social activist, who believed strongly in equality."
+        },
+
+        {
+            "month": "january",
+            "name": "National Pie Day",
+            "description": "A day to cook and bake pies as well as to eat them."
+        },
+
+        {
+            "month": "february",
+            "name": "Bubble Gum Day",
+            "description": "Kids bring 50 cents to school, to contribute to a good cause allowing them to chew gum for the day." 
+        },
+        
+        {
+            "month": "february",
+            "name": "superbowl sunday",
+            "description": "People throw parties as well as watch the game."
+        },
+        
+        {   
+            "month": "february",
+            "name": "national freedom day",
+            "description": "Celebrates freedom from slavery, as well as America stands for a symbol of freedom."
+        },
+
+        {
+            "month": "march",
+            "name": "peach blossom day",
+            "description": "It is a day to celebrate girls, and women."
+        },
+
+        {
+            "month":"march",
+            "name": "plant a flower day",
+            "description": "A day to garden and plant a flower."
+        },
+
+        {
+            "month":"march",
+            "name": "st. patricks day",
+            "description": "In honor of Patron Saint of Ireland, who brought Christianity to the Emerald Isles."
+        },
+        
+        {
+            "month": "April",
+            "name": "april fools day",
+            "description": "A day to have fun, and prank your friends and family."
+        },
+        
+        {
+            "month":"April",
+            "name": "national peanut butter and jelly day",
+            "description": "Many kids and adults love this famous sandwich."
+        },
+        
+        {
+            "month":"April",
+            "name": "zoo overs day",
+            "description": "A day to visit zoos, and enjoy animals."
+        },
+        
+        {
+            "month": "may",
+            "name": "may day",
+            "description":"The celebration of spring coming into summer."
+        },
+        
+        {
+            "month":"may",
+            "name": "star wars day",
+            "description": "A day to celebrate the huge science fiction series."
+        },
+        
+        {
+            "month": "may",
+            "name": "cinco de mayo",
+            "description": "On May 5th, 1862, the Mexican army defeated the French army at the battle of Puebla."
+        },
+        
+        {
+            "month":"june",
+            "name": "best friend's day",
+            "description": "A day to enjoy and appreciate your best friend."
+        },
+        
+        {
+            "month": "june",
+            "name": "eat your vegetables day",
+            "description": "It was created to promote a healthier diet."  
+        },
+        
+        {
+            "month":"june",
+            "name": "father's day",
+            "description": "Appreciate all the dad's"
         },
        
         {
             "month": "july",
-            "name": "Christmas Day",
-            "description": "Christmas is the day....",
-            "best-hat": "Santa Hat"
+            "name": "4th of july",
+            "description": "It is the birthday of our nation, we celebrate this because of the freedom that we gained."
         },
-
+        
+        {
+        
+            "month":"july",
+            "name": "national blueberry day",
+            "description": "Blueberries are one of the most healthiest fruits you can eat. Join the celebration by eating some blueberries" 
+        },
+        
         {
             "month": "july",
-            "name": "Fourth of July",
-            "description": "This is fireworks day...."
-        }
+            "name": "embrace your geekness day",
+            "description": "Embrace your inner geek by hopping on your computer."
+        },
+
     ], 
 
     "months": [
