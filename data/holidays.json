@@ -5,38 +5,44 @@
     
             "month": "january",
             "name": "*New Year's Day*", 
-            "description": "A day to relax and enjoy the new year, it's also a time of joy"
+            "description": "A day to relax and enjoy the new year, it's also a time of joy",
+            "date": "January 1st"
         },
        
         {
             "month": "january",
             "name": "*Martin Luther King JR's Birthday*",
-            "description": "He grew to become a social activist, who believed strongly in equality."
+            "description": "He grew to become a social activist, who believed strongly in equality.",
+            "date": "January 16th"
         },
 
         {
             "month": "january",
             "name": "*National Pie Day*",
-            "description": "A day to cook and bake pies as well as to eat them."
+            "description": "A day to cook and bake pies as well as to eat them.",
+            "date": "January 23rd"
         },
 
 
         {
             "month": "february",
             "name": "*Bubble Gum Day*",
-            "description": "Kids bring 50 cents to school, to contribute to a good cause allowing them to chew gum for the day." 
+            "description": "Kids bring 50 cents to school, to contribute to a good cause allowing them to chew gum for the day.",
+            "date": "February 3rd"
         },
         
         {
             "month": "february",
             "name": "*Superbowl Sunday*",
-            "description": "People throw parties as well as watch the game."
+            "description": "People throw parties as well as watch the game.",
+            "date": "February 5th"
         },
         
         {   
             "month": "february",
             "name": "*National Freedom day*",
-            "description": "Celebrates freedom from slavery, as well as America stands for a symbol of freedom."
+            "description": "Celebrates freedom from slavery, as well as America stands for a symbol of freedom.",
+            "date": "February 5th"
         },
 
               
@@ -44,152 +50,176 @@
         {
             "month": "march",
             "name": "*Peach Blossom day*",
-            "description": "It is a day to celebrate girls, and women."
+            "description": "It is a day to celebrate girls, and women.",
+            "date": "March 3rd"
         },
 
         {
             "month":"march",
             "name": "*Plant a Flower day*",
-            "description": "A day to garden and plant a flower."
+            "description": "A day to garden and plant a flower.",
+            "date": "March 12th"
         },
 
         {
             "month":"march",
             "name": "*St. Patricks day*",
-            "description": "In honor of Patron Saint of Ireland, who brought Christianity to the Emerald Isles."
+            "description": "In honor of Patron Saint of Ireland, who brought Christianity to the Emerald Isles.",
+            "date": "March 17th"
         },
         
 
         {
             "month": "April",
             "name": "*April Fools day*",
-            "description": "A day to have fun, and prank your friends and family."
+            "description": "A day to have fun, and prank your friends and family.",
+            "date": "April 1st"
         },
         
         {
             "month":"April",
             "name": "*National Peanut Butter and Jelly day*",
-            "description": "Many kids and adults love this famous sandwich."
+            "description": "Many kids and adults love this famous sandwich.",
+            "date": "April 2nd"
         },
         
         {
             "month":"April",
             "name": "*Zoo Lovers day*",
-            "description": "A day to visit zoos, and enjoy animals."
+            "description": "A day to visit zoos, and enjoy animals.",
+            "date": "April 8th"
         },
         
 
         {
             "month": "may",
             "name": "*May day*",
-            "description":"The celebration of spring coming into summer."
+            "description":"The celebration of spring coming into summer.",
+            "date": "May 1st"
         },
         
         {
             "month":"may",
             "name": "*Star Wars day*",
-            "description": "A day to celebrate the huge science fiction series."
+            "description": "A day to celebrate the huge science fiction series.",
+            "date": "May 4th"
         },
         
         {
             "month": "may",
             "name": "*Cinco De Mayo*",
-            "description": "On May 5th, 1862, the Mexican army defeated the French army at the battle of Puebla."
+            "description": "On May 5th, 1862, the Mexican army defeated the French army at the battle of Puebla.",
+            "date": "May 5th"
         },
         
 
         {
             "month":"june",
             "name": "*Best Friend's day*",
-            "description": "A day to enjoy and appreciate your best friend."
+            "description": "A day to enjoy and appreciate your best friend.",
+            "date": "June 8th"
         },
         
         {
             "month": "june",
             "name": "*Eat Your Vegetables day*",
-            "description": "It was created to promote a healthier diet."  
+            "description": "It was created to promote a healthier diet.",
+            "date": "June 17th"
         },
         
         {
             "month":"june",
             "name": "*Father's day*",
-            "description": "Appreciate all the dad's"
+            "description": "Appreciate all the dad's",
+            "date": "June 18th"
         },
        
 
         {
             "month": "july",
             "name": "*4th of July*",
-            "description": "It is the birthday of our nation, we celebrate this because of the freedom that we gained."
+            "description": "It is the birthday of our nation, we celebrate this because of the freedom that we gained.",
+            "date": "July 4th"
         },
         
         {
         
             "month":"july",
             "name": "*National Blueberry day*",
-            "description": "Blueberries are one of the most healthiest fruits you can eat. Join the celebration by eating some blueberries" 
+            "description": "Blueberries are one of the most healthiest fruits you can eat. Join the celebration by eating some blueberries",
+            "date": "July 8th"
         },
         
         {
             "month": "july",
             "name": "*Embrace your Geekness day*",
-            "description": "Embrace your inner geek by hopping on your computer."
+            "description": "Embrace your inner geek by hopping on your computer.",
+            "date": "July 23rd"
         },
         
 
         {
             "month": "august",
             "name": "*National S'mores day*",
-            "description": "Relax by the campfire, and eat a s'more to join the fun."
+            "description": "Relax by the campfire, and eat a s'more to join the fun.",
+            "date": "August 10th"
         },
         
         {
             "month": "august",
             "name": "*VJ day*",
-            "description": "The celebration of the end of World War Two."
+            "description": "The celebration of the end of World War Two.",
+            "date": "August 14th and 15th"
         },
         
         {
             "month": "august",
             "name": "*Women's Equality day*",
-            "description": "On this day women had the right."
+            "description": "On this day women had the right.",
+            "date": "August 26th"
         },
         
         {
             "month": "september",
             "name": "*National Grandparents day*",
-            "description": "This day is to honor and remember the fun times you had with your grandparents."
+            "description": "This day is to honor and remember the fun times you had with your grandparents.",
+            "date": "September 10th"
         },
         
         {
             "month": "september",
             "name": "*Read a Book day*",
-            "description": "Relax with a good book, and enjoy reading for a while."
+            "description": "Relax with a good book, and enjoy reading for a while.",
+            "date": "September 6th"
         },
         
         {
             "month":"september",
             "name": "*9/11 Remembrance day*",
-            "description": "Remember those who passed away as well as those who lost a loved one."
+            "description": "Remember those who passed away as well as those who lost a loved one.",
+            "date": "September 11th"
         },
         
 
         {
             "month":"october",
             "name": "*National Pasta day*",
-            "description": "Celebrate by eating some pasta"
+            "description": "Celebrate by eating some pasta",
+            "date": "October 17th"
         },
         
         {
             "month": "october",
             "name": "*United Nations day*",
-            "description": "To recognize, people who serve and help the enviroment" 
+            "description": "To recognize, people who serve and help the enviroment",
+            "date": "October 24th"
         },
         
         {
             "month": "october",
             "name": "*Halloween* :jack_o_lantern:",
-            "description": "To dress up as anything you want, also get candy" 
+            "description": "To dress up as anything you want, also get candy",
+            "date": "October 31st"
         },
         
 
