@@ -15,7 +15,7 @@ var lc = message.toLowerCase();
 var rep = 'Sorry, I did\'t catch that.'; 
 // January Holidays 
 if (lc == ('new years day')) {
-    rep = ('To relax and have fun, it is also a time of joy.');
+    rep = ('A day to relax and have fun, it is also a time of joy.');
 }
 if (lc == ('martin luther king jr\'s birthday')) {
     rep = ('He grew to become a social activist, who believed strongly in equality.');
@@ -72,7 +72,7 @@ if (lc == ('may day')) {
 }
 
 if (lc == ('star wars day')) {
-    rep = ('To celebrate the huge science fiction series.'); 
+    rep = ('A day to celebrate the huge science fiction series.'); 
 }
 
 if (lc == ('cinco de mayo')) {
@@ -82,7 +82,7 @@ if (lc == ('cinco de mayo')) {
 // June Holidays 
 
 if (lc == ('best friend\'s day')) {
-    rep = ('To enjoy and appreciate your best friend.');
+    rep = ('A day to enjoy and appreciate your best friend.');
 }
 
 if (lc == ('eat your vegetables day')) {
