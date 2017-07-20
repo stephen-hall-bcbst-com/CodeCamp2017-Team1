@@ -1,4 +1,7 @@
 'use strict';
+var helper = require('./Helpers.js');
+var holidayData = require('./data/holidays');
+
 module.exports = {
     /**
      * @param {string} question
@@ -10,46 +13,75 @@ module.exports = {
         // *********************************************************************
         // CODE HERE!
         // *********************************************************************
-var lc = question.toLowerCase();
-var rep = 'I don\'t know that, sorry';
 
-        if (lc.includes('how') && lc.includes('are') && lc.includes('you')); {
-         rep = 'I\'m doing as good as expected to be living in a computer'; 
-    }
-        // January response 
-        if (lc.includes('holiday') && lc.includes('january')); {
-        rep = 'January has lots of holidays most notably "New Years Day", "Martin Luther King JR\'s birthday", and "National Pie day." Which one do you want to know about. '; 
-    }
-        // February response 
-        if (lc.includes('holiday') && lc.includes('february')) {
-        rep = 'oh I know about February. It has "Bubble Gum Day", "SuperBowl Sunday", and "National Freedom Day." Which one do you want ot know about. ';
-    } 
-        // March response 
-        if (lc.includes('holiday') && lc.includes('march')) {
-        rep = 'I see you are interested in march, so here you go, "Peach Blossom Day", "Plant a Flower Day", and "St. Patricks Day." Which one do you want to know about.'; 
-    }  
-        // April response 
-        if (lc.includes('holiday') && lc.includes('april')) {
-        rep = 'So, you want to know about Apirl. "Apirl Fools Day", "National Peanut Butter and Jelly Day", and "Zoo lovers Day". Which one do you want to know about.';
-    }
-        // May response 
-        if (lc.includes('holiday') && lc.includes('may')) { 
-            rep = 'Hey your into May, there is "May Day", "Star Wars Day", and "Cinco De Mayo." Which one do you want to know about.';
-    }
-        // June response  
-        if (lc.includes('holiday') && lc.includes('june')) {
-            rep = 'You like june me too, there\'s "Best friend\'s Day", "Eat your Vegeatables Day", and "Father\'s Day." Which one do you want to know about.';
-    }
-        // July response 
-        if (lc.includes('holiday') && lc.includes('july')) {
-            rep = 'July is one of my favorite months. there\'s "4th of July", "National Blueberry Day", and "Embrace your Geekness Day". Which one do you want to know about.';
-    }
-       
-       
-        Slack.postMessageToChannel(channelName, rep );
+        // 
+        var qlc = question.toLowerCase();
+        var response = "I'm not sure what you're asking for, try " +
+                       "asking like this: 'Which holidays are in July?'"; 
+
+        if (qlc.includes('holidays')) {
+            if (qlc.includes(' in ')) {
+
+                var month = helper.getLastWord(qlc).trim();
+                month = month.replace('?', '');
+                
+                // check if the month exists...
+                if (helper.searchArray(holidayData.months, month)) {                    
+                    // month found, look for holidays
+                    
+                    response = getHolidaysInMonth(month);
+                } else {
+                    // month name not found, tell user they're crazy
+                    response = "I'm sorry, but I don't recognize the month '" + month + "'.";
+                }
+            } else {
+                // question was incomplete - tell user to try again
+                response = "If you want to know which holidays occur in" + 
+                           " a particular month, try 'Which holidays are in" +
+                           " [month-name']?";
+            }
+        }
+
+        Slack.postMessageToChannel(channelName, response);
 
         // *********************************************************************
         // STOP CODING!
         // *********************************************************************
     },
 };
+
+/**
+ * Searches the Holiday Data Structure to find matching holidays
+ * 
+ * @param {string} Name of the month to search  
+ * @return {string} list of holidays in the month
+ */
+function getHolidaysInMonth(month) {
+    // reference the holidays array 
+    var holidays = holidayData.holidays;
+
+    // empty return value
+    var ret = "";
+
+    for (var x = 0; x < holidays.length; x++) {
+        if (holidays[x].month == month) {
+            if (ret != "") {
+                ret = ret + ", ";
+            }
+           
+            ret = ret + holidays[x].name;
+        }
+    }
+
+    // set a message if no holidays were found
+    if (ret == "") {
+        // Make the first letter of the month uppercase
+        // month[0] = month[0].toUpperCase();
+
+        ret = "There are no holidays in the month of " + month + ".";
+    } else { 
+        ret = "The holidays in " + month +" are " + ret;
+    }
+
+    return ret;
+}
