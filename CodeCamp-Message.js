@@ -117,13 +117,29 @@ if (lc == ('vj day')) {
         rep = ('The celebration of the end of World War Two.');
 }
 
-if (lc == ('women\'s equality day)) {
+if (lc == ('women\'s equality day')) {
     rep = ('On this day women had the right.');
 }
 
+// September Holidays 
+
+if (lc == ('national grandparents day')) {
+    rep = ('This day is to honor and remember the fun times you had with your grandparents.');
+}
+
+if (lc == ('read a book day')) {
+    rep = ('Relax with a good book, and enjoy reading for a while.');
+}
+
+if (lc == ('911 remembrance day')) {
+    rep = ('Remember those who passed away as well as those who lost a loved one.');
+}
+
+// October Holidays 
 
 
-        Slack.postMessageToChannel(channelName, rep);
+
+       Slack.postMessageToChannel(channelName, rep);
 
         // *********************************************************************
         // STOP CODING!
