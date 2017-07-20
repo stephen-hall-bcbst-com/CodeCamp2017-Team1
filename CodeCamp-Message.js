@@ -173,7 +173,7 @@ if (lc == ('christmas')) {
     rep = ('Spend time with family and friends, and give to people in need. Date: Decemeber 25th');
 }       
 
-if ( lc == ('winter Solstice')) {
+if ( lc == ('winter solstice')) {
     rep = ('Marks the beginning of winter. Date: December 21st');
 }      
        
