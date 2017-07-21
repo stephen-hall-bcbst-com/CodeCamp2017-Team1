@@ -80,7 +80,7 @@ function getHolidaysInMonth(month) {
 
         ret = "There are no holidays in the month of " + month + ".";
     } else { 
-        ret = "The holidays in " + month +" are " + ret;
+        ret = "The holidays in " + month +" are " + ret + "." + " which one do you want to know about" + ".";
     }
 
     return ret;
