@@ -13,13 +13,13 @@ module.exports = {
         // *********************************************************************
 var lc = message.toLowerCase();
 
-    if (lc == "help") {
+    if (lc.toLowerCase() == "help") {
  Slack.postMessageToChannel(channelName, 'I can help you with the kill command and asking about the holidays. For kill command type "kill help". For holiday help type "holiday help"');   
 }
-    if (lc == "kill help") {
+    if (lc.toLowerCase() == "kill help") {
  Slack.postMessageToChannel(channelName, 'The kill command is "go to sleep"');    
 }
-    if (lc == "holiday help") {
+    if (lc.toLowerCase() == "holiday help") {
  Slack.postMessageToChannel(channelName, 'If you are not getting any holidays try asking like this "Which holidays are in July?"');
 }
 
