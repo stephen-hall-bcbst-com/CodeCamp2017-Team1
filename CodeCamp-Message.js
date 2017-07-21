@@ -118,7 +118,7 @@ if (lc == ('vj day')) {
 }
 
 if (lc == ('women\'s equality day')) {
-    rep = ('On this day women had the right. Date: August 26th');
+    rep = ('On this day women had got the right to vote. Date: August 26th');
 }
 
 // September Holidays 
