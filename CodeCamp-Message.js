@@ -90,7 +90,7 @@ if (lc == ('eat your vegetables day')) {
 } 
 
 if (lc == ('father\'s day')) {
-    rep = ('Appreciate all the dad\'s. Date: June 18th');
+    rep = ('A day to appreciate all the dad\'s. Date: June 18th');
 }
 
 // July Holidays 
